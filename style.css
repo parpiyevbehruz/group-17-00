@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.header {
+    background: darkblue;
+    min-height: 600px;
+    padding: 15px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;    
+}
+.logo {
+    color: darkmagenta;
+    font-size: 30px;
+    font-weight: 700;
+}
+.list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.link {
+    margin: 0 15px;
+    color: darkorange;
+    font-size: 30px;
+}
